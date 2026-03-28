@@ -1,4 +1,4 @@
-legendaries=("mew" "mewtwo" "moltres" "zapdos" "articuno" "ho-oh" "lugia" "celebi" "entei" "suicune" "raikou" "regirock" "registeel" "regice" "latias" "latios" "kyogre$
+legendaries=("mew" "mewtwo" "moltres" "zapdos" "articuno" "ho-oh" "lugia" "celebi" "entei" "suicune" "raikou" "regirock" "registeel" "regice" "latias" "latios" "kyogre" "groudon" "rayquaza" "deoxys" "jirachi" "dialga" "palkia" "heatran" "giratina" "cresselia" "phione" "manaphy" "darkrai" "shaymin" "arceus" "victini" "cobalion" "terrakion" "virizion" "tornadus" "thundurus" "reshiram" "zekrom" "landorus" "kyurem" "kyurem-black" "kyurem-white" "keldeo" "meloetta" "genesect")
 
 random_pokemon="${legendaries[$RANDOM % ${#legendaries[@]}]}"
 pokeget "$random_pokemon" -s --hide-name
